@@ -1,14 +1,11 @@
 {
   "domain": "agfeo",
   "name": "AGFEO SmartHome",
-  "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/agfeo",
   "requirements": [],
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},
   "dependencies": [],
-  "codeowners": [
-    "@rwbr"
-  ]
+  "codeowners": ["@rwbr"]
 }
