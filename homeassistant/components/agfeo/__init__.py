@@ -3,12 +3,21 @@ import logging
 
 import voluptuous as vol
 
-from homeassistant.const import CONF_HOST, CONF_PASSWORD, CONF_USERNAME
+from homeassistant.const import (
+    CONF_HOST,
+    CONF_PASSWORD,
+    CONF_SSL,
+    CONF_USERNAME,
+    CONF_VERIFY_SSL,
+)
 import homeassistant.helpers.config_validation as cv
 
 _LOGGER = logging.getLogger(__name__)
 
 DOMAIN = "agfeo"
+
+DEFAULT_SSL = True
+DEFAULT_VERIFY_SSL = False
 
 CONFIG_SCHEMA = vol.Schema(
     {
@@ -17,6 +26,8 @@ CONFIG_SCHEMA = vol.Schema(
                 vol.Required(CONF_HOST): cv.string,
                 vol.Required(CONF_USERNAME): cv.string,
                 vol.Required(CONF_PASSWORD): cv.string,
+                vol.Optional(CONF_SSL, default=DEFAULT_SSL): cv.boolean,
+                vol.Optional(CONF_VERIFY_SSL, default=DEFAULT_VERIFY_SSL): cv.boolean,
             }
         )
     },
