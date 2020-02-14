@@ -159,7 +159,7 @@ defusedxml==0.6.0
 denonavr==0.7.12
 
 # homeassistant.components.directv
-directpy==0.5
+directpy==0.6
 
 # homeassistant.components.updater
 distro==1.4.0
@@ -254,7 +254,7 @@ hole==0.5.0
 holidays==0.10.1
 
 # homeassistant.components.frontend
-home-assistant-frontend==20200130.2
+home-assistant-frontend==20200212.0
 
 # homeassistant.components.zwave
 homeassistant-pyozw==0.1.8
@@ -390,7 +390,7 @@ pure-python-adb==0.2.2.dev0
 pushbullet.py==0.11.0
 
 # homeassistant.components.august
-py-august==0.11.0
+py-august==0.12.0
 
 # homeassistant.components.canary
 py-canary==0.5.0
@@ -622,7 +622,7 @@ sentry-sdk==0.13.5
 simplehound==0.3
 
 # homeassistant.components.simplisafe
-simplisafe-python==6.1.0
+simplisafe-python==7.1.0
 
 # homeassistant.components.sleepiq
 sleepyq==0.7
@@ -687,6 +687,9 @@ uvcclient==0.11.0
 
 # homeassistant.components.meteo_france
 vigilancemeteo==3.0.0
+
+# homeassistant.components.vilfo
+vilfo-api-client==0.3.2
 
 # homeassistant.components.verisure
 vsure==1.5.4

@@ -429,7 +429,7 @@ deluge-client==1.7.1
 denonavr==0.7.12
 
 # homeassistant.components.directv
-directpy==0.5
+directpy==0.6
 
 # homeassistant.components.discogs
 discogs_client==2.2.2
@@ -683,7 +683,7 @@ hole==0.5.0
 holidays==0.10.1
 
 # homeassistant.components.frontend
-home-assistant-frontend==20200130.2
+home-assistant-frontend==20200212.0
 
 # homeassistant.components.zwave
 homeassistant-pyozw==0.1.8
@@ -725,7 +725,7 @@ ibmiotf==0.3.4
 iglo==1.2.7
 
 # homeassistant.components.ihc
-ihcsdk==2.5.0
+ihcsdk==2.6.0
 
 # homeassistant.components.incomfort
 incomfort-client==0.4.0
@@ -1074,7 +1074,7 @@ pushover_complete==1.1.1
 pwmled==1.4.1
 
 # homeassistant.components.august
-py-august==0.11.0
+py-august==0.12.0
 
 # homeassistant.components.canary
 py-canary==0.5.0
@@ -1829,7 +1829,7 @@ simplehound==0.3
 simplepush==1.1.4
 
 # homeassistant.components.simplisafe
-simplisafe-python==6.1.0
+simplisafe-python==7.1.0
 
 # homeassistant.components.sisyphus
 sisyphus-control==2.2.1
@@ -2031,6 +2031,9 @@ venstarcolortouch==0.12
 
 # homeassistant.components.meteo_france
 vigilancemeteo==3.0.0
+
+# homeassistant.components.vilfo
+vilfo-api-client==0.3.2
 
 # homeassistant.components.volkszaehler
 volkszaehler==0.1.2
