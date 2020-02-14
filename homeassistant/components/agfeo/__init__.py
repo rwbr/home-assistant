@@ -1,4 +1,12 @@
-"""Support for Agfeo SmartHome interface."""
+"""
+Support for Agfeo SmartHome interface.
+
+Copyright 2020 Ralf Weinbrecher <developer@ralfweinbrecher.de>
+
+This code is released under the terms of the GPLv3 license. See the
+LICENSE file for more details.
+"""
+
 import logging
 
 import voluptuous as vol
